@@ -1,0 +1,11 @@
+/* éstos son las directivas de tailwind */
+
+
+/* inicializa los elementos del css */
+
+@tailwind base;
+
+/* Genera el código de utilerias */
+
+@tailwind components;
+@tailwind utilities;

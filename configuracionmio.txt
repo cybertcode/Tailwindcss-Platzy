@@ -1,0 +1,18 @@
+1° npm init -y // para inicializar el proyecto
+2° npm install tailwindcss autoprefixer postcss-cli // instalamos con las dependencias //autoprefixer es una libreria para agregar vendorprefixer
+3° inicilizamos los componentes y librerias
+4° npx tailwindcss init
+5° Creamos un archivo con touch => touch postcss.config.js
+6° para abrir con visual code => code .
+7° en postcss.config.js => le indicamos las librerías que vamos utilizar|
+8° creamos la carpeta y dentro creamo el archivo tailwindcssOrigen origen de css y el archivo html
+9° agregamos las directivas al archivo tailwindcssOrigen son tres lineas
+10° creamos la carpeta html y creamos el archivo index                                            .
+11° abrimos con nuestro servidor live server => el index.html de la carpeta public
+11ª creamos el archivo css destino a partir del origen
+12ª  "scripts": {
+        "build": "postcss css/tailwindcssOrigen.css -o public/css/styleDestino.css"
+    },
+13ª y ejecutamos en terminal el number del script build => npm run build
+14° de la documentación en package.json copiar alguna configuraciones predeterminadas
+15° npx tailwindcss init tailwind.config.full.js --full para crear el js full para configurar
